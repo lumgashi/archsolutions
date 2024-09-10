@@ -46,7 +46,7 @@ cd nestjs-prisma-mongodb-prisma
 
 ```bash
 DATABASE_URL="mongodb+srv: ..."
-apiPrefix=api
+apiPrefix="api"
 jwtSecret="secret"
 tokenExpiresIn="1d"
 ``` 
