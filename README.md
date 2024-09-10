@@ -43,6 +43,7 @@ cd nestjs-prisma-mongodb-prisma
 
 ## Set up Environment Variables
 <p>Create a .env file in the root directory and configure the necessary environment variables:</p>
+
 ```bash
 DATABASE_URL="mongodb+srv: ..."
 apiPrefix=api
@@ -71,6 +72,7 @@ docker-compose down
 ## Running the app locally without Docker
 
 <p>If you want to run the app locally without Docker, you can use:</p>
+
 ```bash
 npm install
 npm run start:dev
